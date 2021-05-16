@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.login, .signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    /*  */
+    width: 350px;
+    height: 500px;
+    padding: 40px;
+    margin: 3% auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    transition: ease-out 1s;
+    
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+
+}
+
+input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    width: 90%;
+    height: 25px;
+    font-size: 14px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 8%;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #beb9b9;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    color: #cbced1;
+    background: #1da1f2;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    transition: 0.5s;
+    box-shadow: 6px 6px 6px #cbced1, inset -6px -6px 6px #1da1f2;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 14px;
+    color: #1da1f2;
+}
+p span {
+    font-weight: bold;
+    cursor: pointer;
+}
+.signup {
+    display: none;
+}
